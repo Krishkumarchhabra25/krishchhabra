@@ -1,48 +1,51 @@
 import SkillCard from "./SkillCard";
 
 
+import swiftUIImage from '../assets/images/swiftui.svg';
+import reactImage from '../assets/images/react.svg';
+import jsImage from '../assets/images/javascript.svg';
+import nodeImage from '../assets/images/nodejs.svg';
+import expressImage from '../assets/images/expressjs.svg';
+import mongoImage from '../assets/images/mongodb.svg';
+import tailwindImage from '../assets/images/tailwindcss.svg';
+
 const skillItem = [
-    {
-      imgSrc: '/src/assets/images/swiftui.svg',
-      label: 'Swift Ui',
-      desc: 'SwiftUi'
-    },
-    {
-      imgSrc: '/src/assets/images/react.svg',
-      label: 'React Native',
-      desc: 'React Native'
-    },
-    {
-      imgSrc: '/src/assets/images/javascript.svg',
-      label: 'JavaScript',
-      desc: 'Interaction'
-    },
-    {
-      imgSrc: '/src/assets/images/nodejs.svg',
-      label: 'NodeJS',
-      desc: 'Web Server'
-    },
-    {
-      imgSrc: '/src/assets/images/expressjs.svg',
-      label: 'ExpressJS',
-      desc: 'Node Framework'
-    },
-    {
-      imgSrc: '/src/assets/images/mongodb.svg',
-      label: 'MongoDB',
-      desc: 'Database'
-    },
-    {
-      imgSrc: '/src/assets/images/react.svg',
-      label: 'React',
-      desc: 'Framework'
-    },
-    {
-      imgSrc: '/src/assets/images/tailwindcss.svg',
-      label: 'TailwindCSS',
-      desc: 'User Interface'
-    },
-  ];
+  {
+    imgSrc: swiftUIImage,
+    label: 'Swift Ui',
+    desc: 'SwiftUi',
+  },
+  {
+    imgSrc: reactImage,
+    label: 'React Native',
+    desc: 'React Native',
+  },
+  {
+    imgSrc: jsImage,
+    label: 'JavaScript',
+    desc: 'Interaction',
+  },
+  {
+    imgSrc: nodeImage,
+    label: 'NodeJS',
+    desc: 'Web Server',
+  },
+  {
+    imgSrc: expressImage,
+    label: 'ExpressJS',
+    desc: 'Node Framework',
+  },
+  {
+    imgSrc: mongoImage,
+    label: 'MongoDB',
+    desc: 'Database',
+  },
+  {
+    imgSrc: tailwindImage,
+    label: 'TailwindCSS',
+    desc: 'User Interface',
+  },
+];
 
 
 const Skill = () => {
