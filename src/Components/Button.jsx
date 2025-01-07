@@ -1,9 +1,14 @@
 import PropTypes from "prop-types";
 
-const ButtonPrimary = ({ href, target = "_self", label, icon, classes = "" }) => {
+const ButtonPrimary = ({ href, target = "_self", label, icon, classes = "", onClick }) => {
   if (href) {
     return (
-      <a href={href} target={target} className={`btn btn-primary ${classes}`}>
+      <a
+        href={href}
+        target={target}
+        className={`btn btn-primary ${classes}`}
+        onClick={onClick} // Add the onClick handler
+      >
         {label}
         {icon && (
           <span className="material-symbols-rounded" aria-hidden="true">
@@ -14,7 +19,7 @@ const ButtonPrimary = ({ href, target = "_self", label, icon, classes = "" }) =>
     );
   } else {
     return (
-      <button className={`btn btn-primary ${classes}`}>
+      <button className={`btn btn-primary ${classes}`} onClick={onClick}> {/* Add the onClick handler */}
         {label}
         {icon && (
           <span className="material-symbols-rounded" aria-hidden="true">
@@ -32,13 +37,15 @@ ButtonPrimary.propTypes = {
   target: PropTypes.string,
   icon: PropTypes.string,
   classes: PropTypes.string,
+  onClick: PropTypes.func, // Add onClick prop type
 };
 
+
 //Button Secondary
-const ButtonOutline = ({ href, target = "_self", label, icon, classes = "" }) => {
+const ButtonOutline = ({ href, target = "_self", label, icon, classes = "",download }) => {
     if (href) {
       return (
-        <a href={href} target={target} className={`btn btn-outline ${classes}`}>
+        <a href={href}   download={download} target={target} className={`btn btn-outline ${classes}`}>
           {label}
           {icon && (
             <span className="material-symbols-rounded" aria-hidden="true">
