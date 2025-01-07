@@ -4,13 +4,13 @@ import image4 from '../assets/images/image4.jpg';
 import hero2 from '../assets/images/hero2.png';
 
 const Hero = () => {
-  const downloadCV = () => {
+/*   const downloadCV = () => {
     const url = "http://localhost:5173/assets/assets/images/krishchhabraresume2024dec.pdf"; // Resume URL
     const link = document.createElement("a"); // Create an anchor element
     link.href = url; // Set the href to the file URL
     link.download = "krishchhabraresume2024dec.pdf"; // Specify the name for the download
     link.click(); // Simulate the click event to trigger the download
-  };
+  }; */
   return (
     <section className="pt-28 lg:pt-36" id="home">
       <div className="container lg:grid lg:grid-cols-2  items-center lg:gap-10">
@@ -31,7 +31,7 @@ const Hero = () => {
             Building Dynamic Website and Native Apps for the Future
           </h2>
           <div className="flex items-center gap-3">
-            <ButtonPrimary   label="Download Cv" icon="download" onClick={downloadCV}  />
+            <ButtonPrimary   label="Download Cv" icon="download"   />
             <ButtonOutline href="#about" label="Scroll down" icon="arrow_downward" />
           </div>
         </div>
