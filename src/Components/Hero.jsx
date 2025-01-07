@@ -5,7 +5,7 @@ import hero2 from '../assets/images/hero2.png';
 
 const Hero = () => {
   const downloadCV = () => {
-    const url = "https://krishkumarchhabra.netlify.app//assets/assets/images/krishchhabraresume2024dec.pdf"; // Resume URL
+    const url = "http://localhost:5173/assets/assets/images/krishchhabraresume2024dec.pdf"; // Resume URL
     const link = document.createElement("a"); // Create an anchor element
     link.href = url; // Set the href to the file URL
     link.download = "krishchhabraresume2024dec.pdf"; // Specify the name for the download
