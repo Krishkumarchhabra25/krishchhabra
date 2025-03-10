@@ -9,6 +9,7 @@ import project6 from '../assets/images/fullstackecommerce.png';
 import project7 from '../assets/images/wemakedevsclone.png';
 import project8 from '../assets/images/eccomerce.png';
 import project9 from '../assets/images/spotifyclone.png';
+import project10 from '../assets/images/clinicmanagement.png';
 
 const works = [
   {
@@ -18,9 +19,15 @@ const works = [
     projectLink: 'https://aarohimediatest.netlify.app/#/'
   },
   {
+    imgSrc: project10,
+    title: 'Arogyan clinic',
+    tags: ['React', 'node js', 'express', 'Tailwind css' , 'Redux'],
+    projectLink: 'https://arogyam-clinic.netlify.app/#/login'
+  },
+  {
     imgSrc: project2,
     title: 'Clickezy Web App',
-    tags: ['Nextjs', 'Tailwindcss' , 'Redux'],
+    tags: ['Nextjs','node js', 'express', 'Tailwindcss' , 'Redux'],
     projectLink: 'https://clickezy-frontend.vercel.app/'
   },
   {
@@ -32,7 +39,7 @@ const works = [
   {
     imgSrc: project4,
     title: 'odishataekwondo',
-    tags: ['React', 'Redux' ,'Tailwindcss'],
+    tags: ['React','node js', 'express', 'Redux' ,'Tailwindcss'],
     projectLink: 'https://odishataekwondoassociation.com/#/'
   },
   {
@@ -56,7 +63,7 @@ const works = [
   {
     imgSrc: project8,
     title: 'Eccomerce',
-    tags: ['React js', 'MongoDb' , 'Prisma' , 'SupaBase'],
+    tags: ['React js', 'node js', 'express','MongoDb' , 'Prisma' , 'SupaBase'],
     projectLink: 'https://shopping-shop-krish.vercel.app/'
   },
   {

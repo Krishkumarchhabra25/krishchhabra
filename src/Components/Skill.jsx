@@ -8,6 +8,10 @@ import nodeImage from '../assets/images/nodejs.svg';
 import expressImage from '../assets/images/expressjs.svg';
 import mongoImage from '../assets/images/mongodb.svg';
 import tailwindImage from '../assets/images/tailwindcss.svg';
+import nextjs from '../assets/images/nextjs-icon.svg';
+import git from '../assets/images/Git_icon.svg.png';
+import github from '../assets/images/Octicons-mark-github.svg';
+import socketIo from '../assets/images/Socket-io.svg';
 
 const skillItem = [
   {
@@ -19,6 +23,16 @@ const skillItem = [
     imgSrc: reactImage,
     label: 'React Native',
     desc: 'React Native',
+  },
+  {
+    imgSrc: nextjs,
+    label: 'Next js',
+    desc: 'Next js',
+  },
+  {
+    imgSrc: reactImage,
+    label: 'React js',
+    desc: 'React js',
   },
   {
     imgSrc: jsImage,
@@ -41,9 +55,24 @@ const skillItem = [
     desc: 'Database',
   },
   {
+    imgSrc: socketIo,
+    label: 'Socket Io',
+    desc: 'SocketIo',
+  },
+  {
     imgSrc: tailwindImage,
     label: 'TailwindCSS',
     desc: 'User Interface',
+  },
+  {
+    imgSrc: git,
+    label: 'Git',
+    desc: 'Git',
+  },
+  {
+    imgSrc: github,
+    label: 'GitHub',
+    desc: 'Git Hub',
   },
 ];
 
